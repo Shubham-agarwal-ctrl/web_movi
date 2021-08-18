@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html {
+  font-size: 16px;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: black;
+  height: 50px;
+}
+.nav_text {
+  /* display: flex;
+  justify-content: space-around; */
+  width: 30rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+
+.logo {
+  height: 35px;
+
+  padding-bottom: 10px;
+}
+
+.search {
+  border-radius: 25px;
+  box-sizing: border-box;
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: -5px;
+  margin-right: 16px;
+  font-size: 17px;
+  background-color: black;
+  color: aliceblue;
+}
+header {
+  text-align: center;
+  background-color: rgb(136, 105, 89);
+  height: 350px;
+  /* margin-top: 10px; */
+}
+.main_text {
+  font-size: 50px;
+  color: aliceblue;
+  padding-top: 50px;
+}
+.main > p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 25px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+span {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 100%;
+
+  background-color: brown;
+  font-weight: 560;
+  font-size: 18px;
+}
+.footer_main {
+  display: flex;
+  padding-left: 40%;
+}
+.footer_text {
+  display: flex;
+}
+.footer_text > div {
+  padding-left: 18px;
+  color: antiquewhite;
+}
+.Text {
+  padding-left: 35%;
+}
+
+/* cards layout */
+
+.amin-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* width: 20000rem; */
+  margin: 1rem;
+}
+img {
+  height: 10rem;
+  width: 12rem;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.container_text {
+  text-align: center;
+}
